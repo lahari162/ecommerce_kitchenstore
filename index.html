@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>ELEVEN:ELEVEN WEBSITE</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
+  <script defer src="script.js"></script>
+  <style>
+    html {
+      scroll-behavior: smooth;
+    }
+  </style>
+</head>
+
+<body>
+  <!-- Header/Home Section -->
+  <div class="header" id="home">
+    <div class="container">
+     <div class="navbar">
+  <div class="logo">
+    <img src="images/logo.png" width="150px" />
+    <p><b>Believe in sharing flavours</b></p>
+  </div>
+  <nav>
+    <ul id="MenuItems">
+      <li><a href="#home">Home</a></li>
+      <li><a href="profile.html">Profile</a></li>
+      <li><a href="#starters">Bestsellers</a></li>
+      <li><a href="#main-course">Main Course</a></li>
+      <li><a href="#jumbo-pack">Jumbo Pack</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+</div>
+
+      <div class="row">
+        <div class="col-2">
+          <h1 class="hero-title">Where Flavours,<br>Meet Time!</h1>
+          <p>
+            Welcome to a world where food isn’t just nourishment it’s an experience and love on a plate,<br />
+            a story told through flavors, textures, and aromas.<br />
+            At <b>11:11</b>, we believe in delivering not just meals but moments crafted with passion.<br />
+            Let every bite tell a tale, and every meal be a celebration.
+          </p>
+          <a href="#main-course" class="btn">Explore Now &#8594;</a>
+        </div>
+        <div class="col-2">
+          <img src="images/logo-2.png" />
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Starters -->
+  <div class="categories" id="starters">
+    <div class="small-container">
+      <div class="row">
+        <div class="col-3"><img src="images/peruguvada.jpg" /></div>
+        <div class="col-3"><img src="images/naancurry.jpg" /></div>
+        <div class="col-3"><img src="images/cutlet.jpg" /></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Main Course -->
+  <div class="small-container" id="main-course">
+    <h2><div class="title">New Add On's✨</div></h2>
+    <div class="row">
+      <!-- Add-to-cart items here (unchanged) -->
+      <!-- Example: -->
+      <div class="col-4">
+        <img src="images/meals.jpg" />
+        <h4>Meals</h4>
+        <div class="rating"><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star-o"></i></div>
+        <p>$50.00</p>
+        <button class="add-to-cart" data-name="Meals" data-price="50.00">Add to Cart</button>
+      </div>
+      <div class="col-4">
+                    <img src="images/peruguvada.jpg">
+                    <h4>peruguvada</h4>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                    </div>
+                    <p>$10.00</p>
+                <button class="add-to-cart" data-name="peruguvada" data-price="10.00">Add to Cart</button>
+                </div>
+                    <div class="col-4">
+                        <img src="images/naancurry.jpg">
+                        <h4>Naan-curry</h4>
+                        <div class="rating">
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star-o"></i>
+                        </div>
+                        <p>$60.00</p>
+                     <button class="add-to-cart" data-name="naancurry" data-price="60.00">Add to Cart</button>
+                    </div>
+                    <div class="col-4">
+                        <img src="images/soups.jpg">
+                        <h4>Soup</h4>
+                        <div class="rating">
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star-half-o"></i>
+                        </div>
+                        <p>$5.00</p>
+                        <button class="add-to-cart" data-name="soups" data-price="5.00">Add to Cart</button>
+                    </div>
+                </div>
+        </div>
+        <h2><div class="title">Latest Dishes</h2>
+            <div class="row">
+                <div class="col-4">
+                    <img src="images/healthy-meal.jpg">
+                    <h4>Healthy Meals</h4>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-o"></i>
+                    </div>
+                    <p>$50.00</p>
+                                    <button class="add-to-cart" data-name="healthy-meal" data-price="50.00">Add to Cart</button>
+                </div>
+                    <div class="col-4">
+                        <img src="images/kulcha.jpg">
+                        <h4>kulcha with salad</h4>
+                        <div class="rating">
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                        </div>
+                        <p>$10.00</p>
+                                        <button class="add-to-cart" data-name="kulcha" data-price="10.00">Add to Cart</button>
+                    </div>
+                        <div class="col-4">
+                            <img src="images/north-meal.jpg">
+                            <h4>north-meal</h4>
+                            <div class="rating">
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star-o"></i>
+                            </div>
+                            <p>$60.00</p>
+                                            <button class="add-to-cart" data-name="north-meal" data-price="60.00">Add to Cart</button>
+                        </div>
+                        <div class="col-4">
+                            <img src="images/mini-frankie.jpg">
+                            <h4>mini-frankie</h4>
+                            <div class="rating">
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star-half-o"></i>
+                            </div>
+                            <p>$5.00</p>
+                                            <button class="add-to-cart" data-name="mini-frankie" data-price="5.00">Add to Cart</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-4">
+                        <img src="images/dumplings.jpg">
+                        <h4>dumplings</h4>
+                        <div class="rating">
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star-o"></i>
+                        </div>
+                        <p>$50.00</p>
+                                        <button class="add-to-cart" data-name="dumplings" data-price="50.00">Add to Cart</button>
+                    </div>
+                        <div class="col-4">
+                            <img src="images/chicken-rice.jpg">
+                            <h4>Sizzler</h4>
+                            <div class="rating">
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                            </div>
+                            <p>$10.00</p>
+                                            <button class="add-to-cart" data-name="chicken-rice" data-price="10.00">Add to Cart</button>
+                        </div>
+                            <div class="col-4">
+                                <img src="images/veg-salad.jpg">
+                                <h4>veg-salad</h4>
+                                <div class="rating">
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star-o"></i>
+                                </div>
+                                <p>$60.00</p>
+                         <button class="add-to-cart" data-name="veg-salad" data-price="60.00">Add to Cart</button>
+                            </div>
+                            <div class="col-4">
+                                <img src="images/soup.jpg">
+                                <h4>Soup</h4>
+                                <div class="rating">
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star-half-o"></i>
+                                </div>
+                                <p>$5.00</p>
+                                 <button class="add-to-cart" data-name="soup" data-price="5.00">Add to Cart</button>
+                            </div>
+                        </div>
+                </div>
+            </div>
+    </div>
+    </div>
+  </div>
+  <!-- Jumbo Pack -->
+  <div class="offer" id="jumbo-pack">
+    <div class="small-container">
+      <div class="row">
+        <div class="col-2">
+          <img src="images/bahubali-thali-removebg-preview.png" class="offer-img" />
+        </div>
+        <div class="col-2">
+          <h3><p><b>Exclusively available on 11:11</b></p></h3>
+          <h1>Jumbo Meal</h1>
+          <small><i>The most exclusive meal at a reasonable price which is almost sufficient for 5-6 people.<br />Enjoy the Family meal with our exclusive combo</i></small>
+          <button class="add-to-cart" data-name="Jumbo Meal" data-price="120.00" class="btn">Add to Cart &#8594;</button>
+        </div>
+      </div>
+    </div>
+  </div>
+<!----------brands---------->
+<div class="brands">
+    <div class="small-container">
+        <div class="row">
+            <div class="col-5">
+                <img src="images/oil.png">
+            </div>
+            <div class="col-5">
+                <img src="images/amul.png">
+            </div>
+            <div class="col-5">
+                <img src="images/thumbs-up.png">
+            </div>
+            <div class="col-5">
+                <img src="images/swiggy-instamart.png">
+            </div>
+            <div class="col-5">
+                <img src="images/big-basket.png">
+            </div>
+            <div class="col-5">
+                <img src="images/hatsun.png">
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Contact Us Section -->
+<div id="contact" class="contact-section">
+  <div class="small-container">
+    <h2>Contact Us</h2>
+    <p>Have questions or feedback? We'd love to hear from you!</p>
+    <form>
+      <input type="text" placeholder="Your Name" required />
+      <input type="email" placeholder="Your Email" required />
+      <textarea placeholder="Your Message" required></textarea>
+      <button type="submit" class="btn">Send Message</button>
+    </form>
+  </div>
+</div>
+<!----------footer------------>
+<div class="footer">
+    <div class="container">
+        <div class="row">
+            <div class="footer-col-1">
+                <h3>Download our App</h3>
+                <p>Our App is available on both Android & IOS.<br>Download our app now!! </p>
+                <div class="app-logo">
+                    <img src="images/play-store.png">
+                    <img src="images/app-store.png">
+                </div>
+            </div>
+            <div class="footer-col-2">
+                <img src="images/logo-1.png">
+                <p>Our App is available on both Android & IOS.<br>Download our app now!! </p>
+            </div>
+            <div class="footer-col-3">
+                <h3>Useful Links</h3>
+                <ul>
+                    <li>Coupons</li>
+                    <li>Blog Post</li>
+                    <li>Return policy</li>
+                    <li>Join Affiliate</li>
+                </ul>
+            </div>
+            <div class="footer-col-4">
+                <h3>Follow Us</h3>
+                <ul>
+                    <li>YouTube</li>
+                    <li>Facebook</li>
+                    <li>Instagram</li>
+                    <li>Twitter</li>
+                </ul>
+            </div>
+        </div>
+        <hr>
+        <p class="copy-right">All rights reserved © 2025 11:11 Food</p>
+    </div>
+</div>
+
+  <!-- Cart Icon -->
+  <div class="cart-icon-wrapper" id="cart-toggle">
+    <img src="images/cart.png" alt="Cart" class="cart-icon" />
+    <span id="cart-count" class="cart-count">0</span>
+  </div>
+
+  <!-- Slide Cart Panel -->
+  <div id="cart-panel" class="cart-panel">
+    <div class="cart-header">
+      <span id="close-cart" class="close-btn">&larr;</span>
+      <h3>Your Cart</h3>
+    </div>
+
+    <ul id="cart-items" class="cart-items"></ul>
+    <p><strong>Total: $<span id="cart-total">0.00</span></strong></p>
+    <button id="clear-cart" class="btn">Clear Cart</button>
+
+    <form id="checkout-form" class="checkout-form" style="margin-top: 20px;">
+      <h4>Checkout</h4>
+      <input type="text" id="name" placeholder="Your Name" required />
+      <input type="email" id="email" placeholder="Email Address" required />
+      <input type="text" id="Address" placeholder="Delivery Address" required />
+      <select id="payment-method" required>
+        <option value="">Select Payment Method</option>
+        <option value="cod">Cash on Delivery</option>
+        <option value="upi">UPI</option>
+        <option value="card">Credit/Debit Card</option>
+      </select>
+      <button type="submit" class="btn" style="margin-top: 10px;">Proceed to Pay</button>
+    </form>
+  </div>
+</body>
+</html>
